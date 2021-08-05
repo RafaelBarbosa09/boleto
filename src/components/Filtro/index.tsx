@@ -1,5 +1,11 @@
+import { Container, Content } from "./styles";
+
 export function Filtro() {
-  return(
-    <h1>filtro</h1>
+  return (
+    <Container>
+      <Content>
+        <h2>filtro de pesquisa</h2>
+      </Content>
+    </Container>
   );
 }

@@ -1,12 +1,10 @@
-import { Filtro } from "./components/Filtro";
-import { Header } from "./components/Header";
+import { Cobranca } from "./pages/Cobrancas";
 import { GlobalStyle } from "./styles/global";
 
 function App() {
   return (
     <>
-      <Header />
-      <Filtro />
+      <Cobranca />
       <GlobalStyle />
     </>
   );
