@@ -13,4 +13,37 @@ export const Content = styled.div`
     color: var(--green-light);
     font-weight: 400;
   }
+
+  input, select { 
+    font-size: 1rem; 
+    padding: .8rem;
+    margin: .5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button { 
+    background: var(--button);
+    color: var(--shape);
+    border: 0;
+    padding: .6rem;
+    border-radius: .3rem;
+    font-size: .9rem;
+    margin-top: .5rem;
+  }
+
+  div.input-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1.5rem;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+
+    &+.input {
+      margin-left: 1rem;
+    }
+  }
 `;
